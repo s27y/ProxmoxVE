@@ -16,7 +16,8 @@ update_os
 setup_uv
 
 msg_info "Installing dependencies"
-$STD apt install -y \
+$STD apt install g++-14-x86-64-linux-gnu -y
+$STD apt install --no-install-recommends -y \
   git \
   redis \
   autoconf \
