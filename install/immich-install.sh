@@ -16,7 +16,7 @@ update_os
 setup_uv
 
 msg_info "Installing dependencies"
-$STD apt install --no-install-recommends -y \
+$STD apt install -y \
   git \
   redis \
   autoconf \
